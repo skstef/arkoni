@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="530px" height="518px" viewBox="0 0 530 518" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>img-develop-proc</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="120" height="120" rx="60"></rect>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.373273324   0 0 0 0 0.373273324   0 0 0 0 0.373273324  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="120" height="120" rx="60"></rect>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.373273324   0 0 0 0 0.373273324   0 0 0 0 0.373273324  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-5" x="0" y="0" width="120" height="120" rx="60"></rect>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.373273324   0 0 0 0 0.373273324   0 0 0 0 0.373273324  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-7" x="0" y="0" width="120" height="120" rx="60"></rect>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.373273324   0 0 0 0 0.373273324   0 0 0 0 0.373273324  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-9" x="0" y="0" width="120" height="120" rx="60"></rect>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.373273324   0 0 0 0 0.373273324   0 0 0 0 0.373273324  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-11" x="0" y="0" width="120" height="120" rx="60"></rect>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.373273324   0 0 0 0 0.373273324   0 0 0 0 0.373273324  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop---1440" transform="translate(-746.000000, -1164.000000)">
+            <g id="Technologies" transform="translate(170.000000, 1165.000000)">
+                <g id="img-develop-proc" transform="translate(584.000000, 0.000000)">
+                    <path d="M258,440 C358.515824,440 440,358.515824 440,258 C440,157.484176 358.515824,76 258,76 C157.484176,76 76,157.484176 76,258" id="Oval" stroke="#D6D5D5" stroke-dasharray="5" transform="translate(258.000000, 258.000000) rotate(-225.000000) translate(-258.000000, -258.000000) "></path>
+                    <g id="Group-21" transform="translate(323.000000, 77.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Group-28" transform="translate(18.000000, 23.000000)">
+                            <text id="Requirements-&amp;-User" opacity="0.800000012" font-family="Barlow-Regular, Barlow" font-size="12" font-weight="normal" fill="#212223">
+                                <tspan x="0.168" y="56">Requirements &amp;</tspan>
+                                <tspan x="10.032" y="70">User Stories</tspan>
+                            </text>
+                            <g id="ic-requirements" transform="translate(22.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                                <g id="icons8-important_property" transform="translate(6.000000, 7.000000)" fill="#4E5CDF" fill-rule="nonzero">
+                                    <path d="M2,0 C0.895,0 0,0.895 0,2 L0,6 L0,22 L12.523438,22 C12.297438,21.362 12.135594,20.695 12.058594,20 L2,20 L2,6 L24,6 L24,10.523438 C24.711,10.775438 25.384,11.104578 26,11.517578 L26,3 L26,2 C26,0.895 25.105,0 24,0 L2,0 Z M6,9 C5.44771525,9 5,9.44771525 5,10 C5,10.5522847 5.44771525,11 6,11 C6.55228475,11 7,10.5522847 7,10 C7,9.44771525 6.55228475,9 6,9 Z M10,9 C9.448,9 9,9.448 9,10 C9,10.552 9.448,11 10,11 L16.888672,11 C17.836672,10.512 18.881281,10.185547 19.988281,10.060547 C19.989281,10.039547 20,10.021 20,10 C20,9.448 19.552,9 19,9 L10,9 Z M21,12 C17.134,12 14,15.134 14,19 C14,22.866 17.134,26 21,26 C24.866,26 28,22.866 28,19 C28,15.134 24.866,12 21,12 Z M6,13 C5.44771525,13 5,13.4477153 5,14 C5,14.5522847 5.44771525,15 6,15 C6.55228475,15 7,14.5522847 7,14 C7,13.4477153 6.55228475,13 6,13 Z M10,13 C9.448,13 9,13.448 9,14 C9,14.552 9.448,15 10,15 L12.947266,15 C13.310266,14.271 13.767641,13.6 14.306641,13 L10,13 Z M20,15 L22,15 L21.835938,21 L20.166016,21 L20,15 Z M21,22 C21.552,22 22,22.448 22,23 C22,23.552 21.552,24 21,24 C20.448,24 20,23.552 20,23 C20,22.448 20.448,22 21,22 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(372.000000, 245.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                        </g>
+                        <g id="Group-27" transform="translate(15.000000, 23.000000)">
+                            <text id="Initial-UI-Design-&amp;" opacity="0.800000012" font-family="Barlow-Regular, Barlow" font-size="12" font-weight="normal" fill="#212223">
+                                <tspan x="0.32" y="56">Initial UI Design &amp;</tspan>
+                                <tspan x="15.068" y="70">Wireframes</tspan>
+                            </text>
+                            <g id="ic-ui-design" transform="translate(25.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                                <g id="icons8-prototype" transform="translate(9.000000, 9.000000)" fill="#4E5CDF" fill-rule="nonzero">
+                                    <path d="M2,0 C0.895,0 0,0.895 0,2 L0,4 L22,4 L22,2 C22,0.895 21.105,0 20,0 L2,0 Z M0,6 L0,20 C0,21.105 0.895,22 2,22 L14,22 L14,6 L0,6 Z M16,6 L16,10 L22,10 L22,6 L16,6 Z M16,12 L16,16 L22,16 L22,12 L16,12 Z M16,18 L16,22 L20,22 C21.105,22 22,21.105 22,20 L22,18 L16,18 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(258.000000, 365.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Group-25" transform="translate(15.000000, 23.000000)">
+                            <text id="Sprint-Planning-&amp;-Ex" opacity="0.800000012" font-family="Barlow-Regular, Barlow" font-size="12" font-weight="normal" fill="#212223">
+                                <tspan x="0.264" y="56">Sprint Planning &amp;</tspan>
+                                <tspan x="18.882" y="70">Execution</tspan>
+                            </text>
+                            <g id="ic-sprint-planning" transform="translate(25.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                                <g id="icons8-tiles" transform="translate(7.000000, 11.000000)" fill="#4E5CDF" fill-rule="nonzero">
+                                    <path d="M0.962962963,0 C0.431407407,0 0,0.424421053 0,0.947368421 L0,6.63157895 C0,7.15452632 0.431407407,7.57894737 0.962962963,7.57894737 L6.74074074,7.57894737 C7.2722963,7.57894737 7.7037037,7.15452632 7.7037037,6.63157895 L7.7037037,0.947368421 C7.7037037,0.424421053 7.2722963,0 6.74074074,0 L0.962962963,0 Z M11.5555556,0.947368421 C11.2082765,0.942536568 10.885255,1.12203975 10.7101822,1.4171427 C10.5351094,1.71224565 10.5351094,2.07722804 10.7101822,2.37233098 C10.885255,2.66743393 11.2082765,2.84693712 11.5555556,2.84210526 L24.0740741,2.84210526 C24.4213531,2.84693712 24.7443746,2.66743393 24.9194474,2.37233098 C25.0945202,2.07722804 25.0945202,1.71224565 24.9194474,1.4171427 C24.7443746,1.12203975 24.4213531,0.942536568 24.0740741,0.947368421 L11.5555556,0.947368421 Z M3.85185185,1.89473684 C4.91592593,1.89473684 5.77777778,2.74263158 5.77777778,3.78947368 C5.77777778,4.83536842 4.91592593,5.68421053 3.85185185,5.68421053 C2.78777778,5.68421053 1.92592593,4.83536842 1.92592593,3.78947368 C1.92592593,2.74263158 2.78777778,1.89473684 3.85185185,1.89473684 Z M11.5555556,4.73684211 C11.2082765,4.73201025 10.885255,4.91151344 10.7101822,5.20661638 C10.5351094,5.50171933 10.5351094,5.86670172 10.7101822,6.16180467 C10.885255,6.45690761 11.2082765,6.6364108 11.5555556,6.63157895 L20.2222222,6.63157895 C20.5695013,6.6364108 20.8925228,6.45690761 21.0675956,6.16180467 C21.2426684,5.86670172 21.2426684,5.50171933 21.0675956,5.20661638 C20.8925228,4.91151344 20.5695013,4.73201025 20.2222222,4.73684211 L11.5555556,4.73684211 Z M0.962962963,10.4210526 C0.431407407,10.4210526 0,10.8454737 0,11.3684211 L0,17.0526316 C0,17.5755789 0.431407407,18 0.962962963,18 L6.74074074,18 C7.2722963,18 7.7037037,17.5755789 7.7037037,17.0526316 L7.7037037,11.3684211 C7.7037037,10.8454737 7.2722963,10.4210526 6.74074074,10.4210526 L0.962962963,10.4210526 Z M11.5555556,11.3684211 C11.2082765,11.3635892 10.885255,11.5430924 10.7101822,11.8381953 C10.5351094,12.1332983 10.5351094,12.4982807 10.7101822,12.7933836 C10.885255,13.0884866 11.2082765,13.2679897 11.5555556,13.2631579 L24.0740741,13.2631579 C24.4213531,13.2679897 24.7443746,13.0884866 24.9194474,12.7933836 C25.0945202,12.4982807 25.0945202,12.1332983 24.9194474,11.8381953 C24.7443746,11.5430924 24.4213531,11.3635892 24.0740741,11.3684211 L11.5555556,11.3684211 Z M1.92592593,12.3157895 L5.77777778,12.3157895 L5.77777778,16.1052632 L1.92592593,16.1052632 L1.92592593,12.3157895 Z M11.5555556,15.1578947 C11.2082765,15.1530629 10.885255,15.3325661 10.7101822,15.627669 C10.5351094,15.922772 10.5351094,16.2877544 10.7101822,16.5828573 C10.885255,16.8779602 11.2082765,17.0574634 11.5555556,17.0526316 L20.2222222,17.0526316 C20.5695013,17.0574634 20.8925228,16.8779602 21.0675956,16.5828573 C21.2426684,16.2877544 21.2426684,15.922772 21.0675956,15.627669 C20.8925228,15.3325661 20.5695013,15.1530629 20.2222222,15.1578947 L11.5555556,15.1578947 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(94.000000, 331.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                        </g>
+                        <g id="Group-14" transform="translate(29.000000, 23.000000)">
+                            <text id="Incremental-Release" opacity="0.800000012" font-family="Barlow-Regular, Barlow" font-size="12" font-weight="normal" fill="#212223">
+                                <tspan x="0.3" y="56">Incremental</tspan>
+                                <tspan x="10.95" y="70">Release</tspan>
+                            </text>
+                            <g id="ic-incremental-release" transform="translate(10.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                                <g id="icons8-code" transform="translate(7.000000, 9.000000)" fill="#4E5CDF" fill-rule="nonzero">
+                                    <path d="M2,0 C0.895,0 0,0.895 0,2 L0,6 L0,22 L26,22 L26,4 L26,2 C26,0.895 25.105,0 24,0 L2,0 Z M2,6 L24,6 L24,20 L2,20 L2,6 Z M14.033203,7.986328 C13.5576636,7.97197123 13.1378349,8.2946022 13.029297,8.757812 L11.029297,16.757812 C10.9426648,17.1046489 11.0476831,17.4713555 11.3047803,17.7197545 C11.5618775,17.9681534 11.9319802,18.0604931 12.2756312,17.9619794 C12.6192823,17.8634657 12.8842539,17.5890706 12.970703,17.242188 L14.970703,9.242188 C15.0489105,8.9470695 14.9880314,8.63239185 14.8053966,8.38773723 C14.6227618,8.1430826 14.3383779,7.99525137 14.033203,7.986328 Z M7.9804688,8.988281 C7.65085296,8.99736529 7.34689785,9.16833994 7.1679688,9.445312 L4.7988281,13 L7.1679688,16.554688 C7.36350486,16.8581884 7.70744053,17.0327399 8.06784426,17.0113855 C8.42824799,16.9900312 8.74916478,16.7760864 8.90749299,16.4516191 C9.0658212,16.1271518 9.03697935,15.7425376 8.832031,15.445312 L7.2011719,13 L8.832031,10.554688 C9.04528959,10.2445742 9.0663881,9.84099165 8.88662791,9.51033158 C8.70686773,9.17967152 8.35669034,8.97792957 7.9804688,8.988281 Z M17.988281,8.98827322 C17.6176642,8.98976267 17.2782551,9.19607977 17.1063157,9.52440257 C16.9343762,9.85272537 16.9581024,10.2492129 17.167969,10.554688 L18.798828,13 L17.167969,15.445312 C16.9630183,15.7425375 16.934175,16.1271531 17.0925032,16.4516219 C17.2508313,16.7760906 17.5717494,16.9900362 17.9321544,17.01139 C18.2925594,17.0327438 18.6364958,16.8581905 18.832031,16.554688 L21.201172,13 L18.832031,9.445312 C18.6470038,9.15917831 18.329024,8.98693934 17.988281,8.98827322 L17.988281,8.98827322 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(22.000000, 182.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                        </g>
+                        <g id="Group-13" transform="translate(27.000000, 30.000000)">
+                            <text id="Beta-Testing" opacity="0.800000012" font-family="Barlow-Regular, Barlow" font-size="12" font-weight="normal" fill="#212223">
+                                <tspan x="0.456" y="56">Beta Testing</tspan>
+                            </text>
+                            <g id="ic-beta-testing" transform="translate(13.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                                <g id="icons8-computer_support" transform="translate(5.000000, 8.000000)" fill="#4E5CDF" fill-rule="nonzero">
+                                    <path d="M5,0 C3.346,0 2,1.346 2,3 L2,16 C2,16.771 2.3002969,17.468 2.7792969,18 L0,18 C0,19.657 1.343,21 3,21 L14.337891,21 C14.548891,20.492 14.857531,20.013562 15.269531,19.601562 L17.871094,17 L5,17 C4.448,17 4,16.551 4,16 L4,3 C4,2.449 4.448,2 5,2 L25,2 C25.552,2 26,2.449 26,3 L26,9.113281 C26.463,9.192281 26.918328,9.314375 27.361328,9.484375 C27.605328,9.577375 27.815,9.725437 28,9.898438 L28,3 C28,1.346 26.654,0 25,0 L5,0 Z M24.470703,11.015625 C23.244141,11.086963 22.039062,11.589844 21.101562,12.527344 C19.659562,13.968344 19.766875,15.520344 20.671875,17.027344 L16.683594,21.015625 C15.772594,21.926625 15.772594,23.405406 16.683594,24.316406 C17.594594,25.227406 19.073375,25.227406 19.984375,24.316406 L23.972656,20.328125 C25.478656,21.233125 27.030656,21.340438 28.472656,19.898438 C29.972656,18.398437 30.359438,16.212563 29.648438,14.351562 L26.5,17.5 L24,17 L23.5,14.5 L26.648438,11.351562 C25.950187,11.084937 25.206641,10.972822 24.470703,11.015625 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-21" transform="translate(82.000000, 37.000000)">
+                        <g id="Rectangle">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                        </g>
+                        <g id="Group-12" transform="translate(26.000000, 30.000000)">
+                            <text id="Final-Release" opacity="0.800000012" font-family="Barlow-Regular, Barlow" font-size="12" font-weight="normal" fill="#212223">
+                                <tspan x="0.132" y="56">Final Release</tspan>
+                            </text>
+                            <g id="ic-final-release" transform="translate(12.000000, 0.000000)">
+                                <rect id="Rectangle" x="0" y="0" width="40" height="40"></rect>
+                                <g id="icons8-rocket" transform="translate(8.000000, 8.000000)" fill="#4E5CDF" fill-rule="nonzero">
+                                    <path d="M23.9785164,0.0214836003 C23.9785164,0.0214836003 15,-6.55725474e-16 8,7 C7.676811,7.323189 7.395406,7.675024 7.140625,8.039062 C5.8995439,7.939831 3.9997651,7.972248 3.0273438,8.945312 C0.7573437,11.215312 0,15 0,15 L5,14.285156 L5,16 L8,19 L9.714844,19 L9,24 C9,24 12.784688,23.242656 15.054688,20.972656 C16.027752,20.000235 16.060169,18.100456 15.960938,16.859375 C16.324976,16.604594 16.676811,16.323189 17,16 C24,9 23.9785164,0.0214836003 23.9785164,0.0214836003 Z M16,6 C17.105,6 18,6.895 18,8 C18,9.105 17.105,10 16,10 C14.895,10 14,9.105 14,8 C14,6.895 14.895,6 16,6 Z M4.1992188,16.996094 C3.8192188,17.096094 3.4591094,17.286984 3.1621094,17.583984 C1.7961094,18.949984 2.0136719,21.984375 2.0136719,21.984375 C2.0136719,21.984375 5.0281094,22.219938 6.4121094,20.835938 C6.7091094,20.538937 6.9,20.176875 7,19.796875 L6.5429688,19.339844 C6.4979688,19.403844 6.4701094,19.478156 6.4121094,19.535156 C5.4371094,20.510156 3.9746094,20.023438 3.9746094,20.023438 C3.9746094,20.023438 3.4868906,18.560938 4.4628906,17.585938 C4.5208906,17.527938 4.59225,17.501078 4.65625,17.455078 L4.1992188,16.996094 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

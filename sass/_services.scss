@@ -1,0 +1,119 @@
+.services {
+  max-width: 112.5rem;
+  margin-top: 12rem;
+  margin-left: 12%;
+
+  @media (max-width: $bp-large) {
+    margin-left: 7%;
+  }
+
+  @media (max-width: $bp-small) {
+    margin-top: 6rem;
+  }
+
+  h2 {
+    color: $pseudo-black-2;
+    font-family: "Barlow";
+    font-size: $title-size;
+    font-weight: 500;
+    max-width: 22rem;
+    margin-top: 4.9rem;
+
+    @media (max-width: $bp-medium) {
+      margin-top: -7px;
+    }
+    margin-right: auto;
+  }
+
+  &__list {
+    display: flex;
+
+    @media (max-width: 1000px) {
+      justify-content: space-between;
+    }
+
+    @media (max-width: 790px) {
+      justify-content: start;
+    }
+
+    @media (max-width: $bp-small) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__offer {
+    width: 35.2rem;
+
+    @media (max-width: $bp-large) {
+      width: 28rem;
+    }
+
+    p {
+      margin-top: 1rem;
+      max-width: 50rem;
+      color: $pseudo-black-2;
+      opacity: 0.8;
+      line-height: 1.625;
+      font-size: 1.6rem;
+    }
+
+    h3 {
+      color: $pseudo-black-2;
+      line-height: 1.5;
+      font-size: 1.6rem;
+      font-family: "Barlow";
+      font-weight: 500;
+      line-height: 22px;
+
+      h3 {
+        @media (max-width: $bp-medium) {
+          font-size: 1.5rem;
+          font-weight: 500;
+          line-height: 24px;
+        }
+      }
+    }
+
+    &:not(:last-child) {
+      margin-right: 2.29rem;
+    }
+
+    @media (max-width: $bp-medium) {
+      width: 23.2rem;
+
+      &:not(:last-child) {
+        margin-right: 2rem;
+      }
+    }
+
+    @media (max-width: $bp-small) {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__img {
+    img {
+      border-radius: 3px;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      width: 100%;
+      height: 24rem;
+      object-fit: contain;
+      @media (max-width: $bp-large) {
+        height: 19rem;
+      }
+
+      @media (max-width: $bp-medium) {
+        height: 16rem;
+        margin-bottom: 1.6rem;
+      }
+
+      @media (max-width: $bp-small) {
+        height: auto;
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+}

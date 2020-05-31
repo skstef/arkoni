@@ -1,0 +1,104 @@
+.menu {
+  position: fixed;
+  max-height: 100%;
+  overflow-y: auto;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  transition: all 0.2s;
+  overscroll-behavior: contain;
+
+  background-color: #16171a;
+  z-index: 5;
+
+  visibility: hidden;
+  opacity: 0;
+
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__link-block {
+    margin-top: 39rem;
+
+    @media (max-width: $bp-small) {
+      margin-top: 24.1rem;
+    }
+  }
+
+  &__hover {
+    display: inline-block;
+    height: 0.3rem;
+    width: 120%;
+    position: absolute;
+    background-color: $blue;
+    opacity: 0.6;
+    left: -9%;
+    top: 1.7rem;
+
+    visibility: hidden;
+    transition: 0.1s ease-in;
+    opacity: 0;
+
+    @media (max-width: $bp-small) {
+      top: 1.2rem;
+    }
+  }
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    font-size: 2.6rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    position: relative;
+
+    &:not(:last-child) {
+      margin-bottom: 4rem;
+    }
+
+    &:hover .menu__hover {
+      visibility: visible;
+      opacity: 0.6;
+    }
+
+    @media (max-width: $bp-small) {
+      font-size: 2rem;
+    }
+  }
+
+  &__contact-block {
+    margin-top: 29.5rem;
+    margin-left: 3rem;
+    align-self: start;
+    margin-bottom: 3rem;
+
+    h2 {
+      color: $blue;
+      font-size: 2rem !important;
+      font-weight: 500;
+      margin-bottom: 1rem;
+      @media (max-width: $bp-small) {
+        font-size: 1.6rem !important;
+      }
+    }
+
+    h3 {
+      color: white;
+      font-size: 2.6rem !important;
+      font-weight: 400;
+      @media (max-width: $bp-small) {
+        font-size: 2rem !important;
+      }
+    }
+
+    @media (max-width: $bp-small) {
+      margin-top: 15.6rem;
+      margin-bottom: 1.6rem;
+      margin-left: 1.6rem;
+    }
+  }
+}

@@ -1,0 +1,54 @@
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.blue-btn {
+  background-color: $blue;
+  padding: 1.6rem 3.2rem;
+  font-family: "Barlow";
+  font-weight: 500;
+  color: $white;
+  font-size: 1.6rem;
+  line-height: 1.125;
+  border-radius: 0.4rem;
+
+  @media (max-width: $bp-medium) {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    padding: 1.3rem 3.2rem;
+  }
+
+  &:active {
+    color: darken(#fff, 10);
+  }
+}
+
+.svg-arrow {
+  display: inline-block;
+  svg {
+    fill: white;
+    width: 18.68px;
+    height: 8.02;
+    margin-left: 16.66px;
+  }
+}
+
+.burger-btn {
+  background: white;
+  transition: all ease-in;
+  div {
+    width: 20px;
+    height: 2px;
+    background-color: $pseudo-black;
+
+    &:not(:last-child) {
+      margin-bottom: 4px;
+    }
+  }
+}

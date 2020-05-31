@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./js/slick/slick.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png" />
+    <link rel="mask-icon" href="./favicon/safari-pinned-tab.svg" color="red" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <meta name="msapplication-config" content="./favicon/browserconfig.xml" />
+    <link
+      rel="android-touch-icon"
+      href="./favicon/android-chrome-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/mstile-150x150.png"
+      sizes="150x150"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="./favicon/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <link rel="icon" href="./favicon/favicon.ico" />
+    <title>Arkoni</title>
+  </head>
+  <body>
+    <section class="menu">
+      <div class="menu__link-block">
+        <a href="/" class="menu__link"
+          >Home
+          <div class="menu__hover"></div>
+        </a>
+        <a href="#whatWeDo" class="menu__link"
+          >What we do
+          <div class="menu__hover"></div>
+        </a>
+        <a href="#ourWork" class="menu__link"
+          >Our Work
+          <div class="menu__hover"></div>
+        </a>
+        <a href="#whoWeAre" class="menu__link"
+          >Who we are
+          <div class="menu__hover"></div>
+        </a>
+      </div>
+      <div class="menu__contact-block">
+        <h2>Get in touch</h2>
+        <h3>info@arkoni.io</h3>
+      </div>
+    </section>
+    <header class="header">
+      <nav class="header__nav">
+        <h1 id="topTitle"><a href="#">Arkoni.</a></h1>
+        <div class="header__link-block">
+          <a href="#whatWeDo" class="header__link"
+            >What we do
+            <div class="header__hover"></div>
+          </a>
+          <a href="#ourWork" class="header__link"
+            >Our work
+            <div class="header__hover"></div>
+          </a>
+          <a href="#whoWeAre" class="header__link"
+            >Who we are
+            <div class="header__hover"></div>
+          </a>
+          <a href="#contact" class="header__link"
+            >Contact us
+            <div class="header__hover"></div>
+          </a>
+        </div>
+        <button class="header__btn blue-btn toContact">
+          Get in Touch
+        </button>
+        <button onclick="handleMenu()" class="header__btn--burger burger-btn">
+          <div></div>
+          <div></div>
+        </button>
+      </nav>
+      <div class="header__main">
+        <div class="header__info">
+          <h2>We Turn Ideas Into Apps</h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+          <button class="header__main__btn blue-btn toContact">
+            Get my Free Estimate
+            <div class="svg-arrow">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg
+                width="18px"
+                height="9px"
+                viewBox="0 0 18 9"
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <title>ic-arrow-right</title>
+                <g
+                  id="Design"
+                  stroke="none"
+                  stroke-width="1"
+                  fill="none"
+                  fill-rule="evenodd"
+                >
+                  <g
+                    id="Desktop---1440"
+                    transform="translate(-1261.000000, -2553.000000)"
+                    fill="#ffffff"
+                    fill-rule="nonzero"
+                  >
+                    <g
+                      id="Case-Study"
+                      transform="translate(170.000000, 2324.000000)"
+                    >
+                      <g
+                        id="Next"
+                        transform="translate(1075.000000, 208.000000)"
+                      >
+                        <g
+                          id="ic-arrow-right"
+                          transform="translate(16.000000, 21.000000)"
+                        >
+                          <path
+                            d="M13.946397,0 C13.6884901,0 13.4563389,0.156393388 13.3592906,0.395344507 C13.2622422,0.634295626 13.3196492,0.908223075 13.5044718,1.08810255 L15.5915495,3.1751803 L0.642825039,3.1751803 C0.414254653,3.17194774 0.20164994,3.29203702 0.0864214029,3.4894636 C-0.0288071343,3.68689018 -0.0288071343,3.93106676 0.0864214029,4.12849334 C0.20164994,4.32591992 0.414254653,4.4460092 0.642825039,4.44277665 L15.5915495,4.44277665 L13.5044718,6.52985439 C13.3388978,6.68882148 13.2722002,6.92487987 13.330102,7.14698941 C13.3880037,7.36909895 13.5614571,7.54255232 13.7835667,7.6004541 C14.0056762,7.65835589 14.2417346,7.59165824 14.4007017,7.4260843 L17.513988,4.31279858 C17.6708729,4.19323868 17.7631569,4.00745754 17.763644,3.81020845 C17.7641273,3.61295935 17.6727584,3.42672645 17.5164636,3.30639617 C17.5152287,3.30556661 17.5139909,3.30474139 17.5127502,3.30392055 L14.4007017,0.19187251 C14.2813758,0.0692117793 14.1175237,0 13.946397,0 Z"
+                            id="Path"
+                          ></path>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </svg>
+            </div>
+          </button>
+        </div>
+        <img
+          src="./img/header-illustration.svg"
+          alt="here should be an img"
+          class="header__img"
+        />
+      </div>
+    </header>
+    <section id="whatWeDo" class="services">
+      <h2>What We Do</h2>
+      <div class="services__list">
+        <div class="services__offer">
+          <div class="services__img">
+            <img src="./img/img-mobile-develop.png" alt="service" />
+          </div>
+          <h3>Mobile App Development</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+        </div>
+        <div class="services__offer">
+          <div class="services__img">
+            <img src="./img/img-website-development.png" alt="service" />
+          </div>
+          <h3>Website Design & Development</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+        </div>
+        <div class="services__offer">
+          <div class="services__img">
+            <img src="./img/img-design.png" alt="service" />
+          </div>
+          <h3>Brand Strategy & Design</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="process">
+      <div class="">
+        <h2>Our development process</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. <br />
+          <br />Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <button class="process__btn blue-btn toContact">
+          Get my Free Estimate
+          <div class="svg-arrow">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg
+              width="18px"
+              height="9px"
+              viewBox="0 0 18 9"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>ic-arrow-right</title>
+              <g
+                id="Design"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Desktop---1440"
+                  transform="translate(-1261.000000, -2553.000000)"
+                  fill="#ffffff"
+                  fill-rule="nonzero"
+                >
+                  <g
+                    id="Case-Study"
+                    transform="translate(170.000000, 2324.000000)"
+                  >
+                    <g id="Next" transform="translate(1075.000000, 208.000000)">
+                      <g
+                        id="ic-arrow-right"
+                        transform="translate(16.000000, 21.000000)"
+                      >
+                        <path
+                          d="M13.946397,0 C13.6884901,0 13.4563389,0.156393388 13.3592906,0.395344507 C13.2622422,0.634295626 13.3196492,0.908223075 13.5044718,1.08810255 L15.5915495,3.1751803 L0.642825039,3.1751803 C0.414254653,3.17194774 0.20164994,3.29203702 0.0864214029,3.4894636 C-0.0288071343,3.68689018 -0.0288071343,3.93106676 0.0864214029,4.12849334 C0.20164994,4.32591992 0.414254653,4.4460092 0.642825039,4.44277665 L15.5915495,4.44277665 L13.5044718,6.52985439 C13.3388978,6.68882148 13.2722002,6.92487987 13.330102,7.14698941 C13.3880037,7.36909895 13.5614571,7.54255232 13.7835667,7.6004541 C14.0056762,7.65835589 14.2417346,7.59165824 14.4007017,7.4260843 L17.513988,4.31279858 C17.6708729,4.19323868 17.7631569,4.00745754 17.763644,3.81020845 C17.7641273,3.61295935 17.6727584,3.42672645 17.5164636,3.30639617 C17.5152287,3.30556661 17.5139909,3.30474139 17.5127502,3.30392055 L14.4007017,0.19187251 C14.2813758,0.0692117793 14.1175237,0 13.946397,0 Z"
+                          id="Path"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </button>
+      </div>
+      <img
+        src="./img/development-img.svg"
+        alt="here should be an img"
+        class="process__img"
+      />
+    </section>
+    <section class="skillset">
+      <h2>Our development skillset</h2>
+      <div class="skillset__list">
+        <div class="skillset__skill skillset__skill--node">
+          <img
+            src="./img/svg/skillset/img-node-js.svg"
+            alt="NodeJs"
+            class="skillset__img"
+          />
+          <h3>Node.js</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--angular">
+          <img
+            src="./img/svg/skillset/ic-angular.svg"
+            alt="angular"
+            class="skillset__img"
+          />
+          <h3>Angular</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--react">
+          <img
+            src="./img/svg/skillset/ic-react.svg"
+            alt="React"
+            class="skillset__img"
+          />
+          <h3>React</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--native">
+          <img
+            src="./img/svg/skillset/ic-react.svg"
+            alt="native"
+            class="skillset__img"
+          />
+          <h3>React Native</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--vue">
+          <img
+            src="./img/svg/skillset/ic-vue-js.svg"
+            alt="vue"
+            class="skillset__img"
+          />
+          <h3>Vue.js</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--ruby">
+          <img
+            src="./img/svg/skillset/ic-rails.svg"
+            alt="Ruby"
+            class="skillset__img"
+          />
+          <h3>Ruby On Rails</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--php">
+          <img
+            src="./img/svg/skillset/ic-php.svg"
+            alt="PHP"
+            class="skillset__img"
+          />
+          <h3>PHP</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--wordPress">
+          <img
+            src="./img/svg/skillset/ic-word-press.svg"
+            alt="wordPress"
+            class="skillset__img"
+          />
+          <h3>WordPress</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--ios">
+          <img
+            src="./img/svg/skillset/ic-ios.svg "
+            alt="IOS"
+            class="skillset__img"
+          />
+          <h3>IOS</h3>
+        </div>
+        <div class="skillset__skill skillset__skill--android">
+          <img
+            src="./img/svg/skillset/ic-android.svg"
+            alt="andriod"
+            class="skillset__img"
+          />
+          <h3>Android</h3>
+        </div>
+      </div>
+    </section>
+    <section id="ourWork" class="slider">
+      <h2>Work For Our Esteemed Clients Worldwide</h2>
+      <div class="slider__panels">
+        <div class="slider__panel">
+          <img src="./img/img-work-1.png" alt="image" class="slider__img" />
+          <h3>Red Delta Insurance Company</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+          <h4>UIX Design, Mobile Development</h4>
+        </div>
+        <div class="slider__panel">
+          <img src="./img/img-work-2.png" alt="image" class="slider__img" />
+          <h3>Instagram</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+          <h4>Mobile Development, Website Development</h4>
+        </div>
+        <div class="slider__panel">
+          <img src="./img/img-work-3.png" alt="image" class="slider__img" />
+          <h3>Facebook</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+          <h4>UIX Design, Mobile Development</h4>
+        </div>
+        <div class="slider__panel">
+          <img src="./img/img-work-3.png" alt="image" class="slider__img" />
+          <h3>Facebook</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+          <h4>UIX Design, Mobile Development</h4>
+        </div>
+        <div class="slider__panel">
+          <img src="./img/img-work-2.png" alt="image" class="slider__img" />
+          <h3>Instagram</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since.
+          </p>
+          <h4>Mobile Development, Website Development</h4>
+        </div>
+      </div>
+      <button type="button" class="slider__prev">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg
+          width="18px"
+          height="9px"
+          viewBox="0 0 18 9"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <title>ic-arrow-right</title>
+          <g
+            id="Design"
+            stroke="none"
+            stroke-width="1"
+            fill="none"
+            fill-rule="evenodd"
+          >
+            <g
+              id="Desktop---1440"
+              transform="translate(-1261.000000, -2553.000000)"
+              fill="#212223"
+              fill-rule="nonzero"
+            >
+              <g id="Case-Study" transform="translate(170.000000, 2324.000000)">
+                <g id="Next" transform="translate(1075.000000, 208.000000)">
+                  <g
+                    id="ic-arrow-right"
+                    transform="translate(16.000000, 21.000000)"
+                  >
+                    <path
+                      d="M13.946397,0 C13.6884901,0 13.4563389,0.156393388 13.3592906,0.395344507 C13.2622422,0.634295626 13.3196492,0.908223075 13.5044718,1.08810255 L15.5915495,3.1751803 L0.642825039,3.1751803 C0.414254653,3.17194774 0.20164994,3.29203702 0.0864214029,3.4894636 C-0.0288071343,3.68689018 -0.0288071343,3.93106676 0.0864214029,4.12849334 C0.20164994,4.32591992 0.414254653,4.4460092 0.642825039,4.44277665 L15.5915495,4.44277665 L13.5044718,6.52985439 C13.3388978,6.68882148 13.2722002,6.92487987 13.330102,7.14698941 C13.3880037,7.36909895 13.5614571,7.54255232 13.7835667,7.6004541 C14.0056762,7.65835589 14.2417346,7.59165824 14.4007017,7.4260843 L17.513988,4.31279858 C17.6708729,4.19323868 17.7631569,4.00745754 17.763644,3.81020845 C17.7641273,3.61295935 17.6727584,3.42672645 17.5164636,3.30639617 C17.5152287,3.30556661 17.5139909,3.30474139 17.5127502,3.30392055 L14.4007017,0.19187251 C14.2813758,0.0692117793 14.1175237,0 13.946397,0 Z"
+                      id="Path"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </button>
+      <button type="button" class="slider__next">
+        <?xml version="1.0" encoding="UTF-8"?>
+        <svg
+          width="18px"
+          height="9px"
+          viewBox="0 0 18 9"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+        >
+          <title>ic-arrow-right</title>
+          <g
+            id="Design"
+            stroke="none"
+            stroke-width="1"
+            fill="none"
+            fill-rule="evenodd"
+          >
+            <g
+              id="Desktop---1440"
+              transform="translate(-1261.000000, -2553.000000)"
+              fill="#212223"
+              fill-rule="nonzero"
+            >
+              <g id="Case-Study" transform="translate(170.000000, 2324.000000)">
+                <g id="Next" transform="translate(1075.000000, 208.000000)">
+                  <g
+                    id="ic-arrow-right"
+                    transform="translate(16.000000, 21.000000)"
+                  >
+                    <path
+                      d="M13.946397,0 C13.6884901,0 13.4563389,0.156393388 13.3592906,0.395344507 C13.2622422,0.634295626 13.3196492,0.908223075 13.5044718,1.08810255 L15.5915495,3.1751803 L0.642825039,3.1751803 C0.414254653,3.17194774 0.20164994,3.29203702 0.0864214029,3.4894636 C-0.0288071343,3.68689018 -0.0288071343,3.93106676 0.0864214029,4.12849334 C0.20164994,4.32591992 0.414254653,4.4460092 0.642825039,4.44277665 L15.5915495,4.44277665 L13.5044718,6.52985439 C13.3388978,6.68882148 13.2722002,6.92487987 13.330102,7.14698941 C13.3880037,7.36909895 13.5614571,7.54255232 13.7835667,7.6004541 C14.0056762,7.65835589 14.2417346,7.59165824 14.4007017,7.4260843 L17.513988,4.31279858 C17.6708729,4.19323868 17.7631569,4.00745754 17.763644,3.81020845 C17.7641273,3.61295935 17.6727584,3.42672645 17.5164636,3.30639617 C17.5152287,3.30556661 17.5139909,3.30474139 17.5127502,3.30392055 L14.4007017,0.19187251 C14.2813758,0.0692117793 14.1175237,0 13.946397,0 Z"
+                      id="Path"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </svg>
+      </button>
+    </section>
+    <section class="choose">
+      <h2>Why clients choose us</h2>
+      <div class="choose__top">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <button class="choose__btn blue-btn toContact">
+          Get my Free Estimate
+          <div class="svg-arrow">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg
+              width="18px"
+              height="9px"
+              viewBox="0 0 18 9"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>ic-arrow-right</title>
+              <g
+                id="Design"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Desktop---1440"
+                  transform="translate(-1261.000000, -2553.000000)"
+                  fill="#ffffff"
+                  fill-rule="nonzero"
+                >
+                  <g
+                    id="Case-Study"
+                    transform="translate(170.000000, 2324.000000)"
+                  >
+                    <g id="Next" transform="translate(1075.000000, 208.000000)">
+                      <g
+                        id="ic-arrow-right"
+                        transform="translate(16.000000, 21.000000)"
+                      >
+                        <path
+                          d="M13.946397,0 C13.6884901,0 13.4563389,0.156393388 13.3592906,0.395344507 C13.2622422,0.634295626 13.3196492,0.908223075 13.5044718,1.08810255 L15.5915495,3.1751803 L0.642825039,3.1751803 C0.414254653,3.17194774 0.20164994,3.29203702 0.0864214029,3.4894636 C-0.0288071343,3.68689018 -0.0288071343,3.93106676 0.0864214029,4.12849334 C0.20164994,4.32591992 0.414254653,4.4460092 0.642825039,4.44277665 L15.5915495,4.44277665 L13.5044718,6.52985439 C13.3388978,6.68882148 13.2722002,6.92487987 13.330102,7.14698941 C13.3880037,7.36909895 13.5614571,7.54255232 13.7835667,7.6004541 C14.0056762,7.65835589 14.2417346,7.59165824 14.4007017,7.4260843 L17.513988,4.31279858 C17.6708729,4.19323868 17.7631569,4.00745754 17.763644,3.81020845 C17.7641273,3.61295935 17.6727584,3.42672645 17.5164636,3.30639617 C17.5152287,3.30556661 17.5139909,3.30474139 17.5127502,3.30392055 L14.4007017,0.19187251 C14.2813758,0.0692117793 14.1175237,0 13.946397,0 Z"
+                          id="Path"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div class="choose__list">
+        <div class="choose__elem">
+          <div class="choose__img-container choose__img-container--strategy">
+            <img
+              src="./img/svg/choose/ic-strategy.svg"
+              alt=""
+              class="choose__img"
+            />
+          </div>
+          <h3>Strategy</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
+        </div>
+        <div class="choose__elem">
+          <div class="choose__img-container choose__img-container--design">
+            <img
+              src="./img/svg/choose/ic-design.svg"
+              alt=""
+              class="choose__img"
+            />
+          </div>
+          <h3>Design</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
+        </div>
+        <div class="choose__elem">
+          <div class="choose__img-container choose__img-container--development">
+            <img
+              src="./img/svg/choose/ic-development.svg"
+              alt=""
+              class="choose__img"
+            />
+          </div>
+          <h3>Development</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
+        </div>
+        <div class="choose__elem">
+          <div class="choose__img-container choose__img-container--support">
+            <img
+              src="./img/svg/choose/ic-support.svg"
+              alt=""
+              class="choose__img"
+            />
+          </div>
+          <h3>Support</h3>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="whoWeAre" class="people">
+      <h2>What people say</h2>
+      <div class="people__grid">
+        <div class="people__qeue">
+          <img
+            src="./img/img-review-1.png"
+            alt="person"
+            class="people__img people__img--1 people__img--active"
+          />
+          <img
+            src="./img/img-review-2.png"
+            alt="person"
+            class="people__img people__img--2"
+          />
+          <img
+            src="./img/img-review-3.png"
+            alt="person"
+            class="people__img people__img--3"
+          />
+          <img
+            src="./img/img-review-4.png"
+            alt="person"
+            class="people__img people__img--4"
+          />
+          <img
+            src="./img/img-review-5.png"
+            alt="person"
+            class="people__img people__img--5"
+          />
+
+          <div class="people__dots-qeue">
+            <button onclick="" class="people__dot people__dot--active"></button>
+            <button class="people__dot"></button>
+            <button class="people__dot"></button>
+            <button class="people__dot"></button>
+            <button class="people__dot"></button>
+          </div>
+        </div>
+        <div class="people__quotes">
+          <blockquote>
+            “It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English. The point of using
+            Lorem Ipsum is that it has a more-or-less normal distribution of
+            letters, as opposed.”
+          </blockquote>
+          <h3>David Ramsey</h3>
+          <h4>CEO, Apple Inc.</h4>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Ready to Rock</h2>
+      <p>
+        We’ve worked with clients of all sizes, from enterprise brands to funded
+        startups. Let’s talk about your project and how we can help provide
+        value.
+      </p>
+      <form class="contact__form" action="" method="POST">
+        <input
+          type="text"
+          name="name"
+          placeholder="Name"
+          class="contact__name"
+        />
+        <input
+          type="text"
+          name="email"
+          placeholder="Email"
+          class="contact__email"
+        />
+        <input
+          type="text"
+          name="company"
+          placeholder="Company"
+          class="contact__company"
+        />
+        <input
+          type="number"
+          name="budget"
+          placeholder="Budget"
+          class="contact__budget"
+        />
+        <textarea
+          name="details"
+          placeholder="Tell us about your project. What problem can we help you solve?"
+          class="contact__details"
+        ></textarea>
+
+        <button class="blue-btn contact__btn" type="submit">
+          Get Started Now
+          <div class="svg-arrow">
+            <?xml version="1.0" encoding="UTF-8"?>
+            <svg
+              width="18px"
+              height="9px"
+              viewBox="0 0 18 9"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <title>ic-arrow-right</title>
+              <g
+                id="Design"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="Desktop---1440"
+                  transform="translate(-1261.000000, -2553.000000)"
+                  fill="#ffffff"
+                  fill-rule="nonzero"
+                >
+                  <g
+                    id="Case-Study"
+                    transform="translate(170.000000, 2324.000000)"
+                  >
+                    <g id="Next" transform="translate(1075.000000, 208.000000)">
+                      <g
+                        id="ic-arrow-right"
+                        transform="translate(16.000000, 21.000000)"
+                      >
+                        <path
+                          d="M13.946397,0 C13.6884901,0 13.4563389,0.156393388 13.3592906,0.395344507 C13.2622422,0.634295626 13.3196492,0.908223075 13.5044718,1.08810255 L15.5915495,3.1751803 L0.642825039,3.1751803 C0.414254653,3.17194774 0.20164994,3.29203702 0.0864214029,3.4894636 C-0.0288071343,3.68689018 -0.0288071343,3.93106676 0.0864214029,4.12849334 C0.20164994,4.32591992 0.414254653,4.4460092 0.642825039,4.44277665 L15.5915495,4.44277665 L13.5044718,6.52985439 C13.3388978,6.68882148 13.2722002,6.92487987 13.330102,7.14698941 C13.3880037,7.36909895 13.5614571,7.54255232 13.7835667,7.6004541 C14.0056762,7.65835589 14.2417346,7.59165824 14.4007017,7.4260843 L17.513988,4.31279858 C17.6708729,4.19323868 17.7631569,4.00745754 17.763644,3.81020845 C17.7641273,3.61295935 17.6727584,3.42672645 17.5164636,3.30639617 C17.5152287,3.30556661 17.5139909,3.30474139 17.5127502,3.30392055 L14.4007017,0.19187251 C14.2813758,0.0692117793 14.1175237,0 13.946397,0 Z"
+                          id="Path"
+                        ></path>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </div>
+        </button>
+      </form>
+    </section>
+    <footer class="footer">
+      <h1>Arkoni.</h1>
+      <div class="footer__box">
+        <ul class="footer__column footer__column--1">
+          <h6 class="footer__title">Links</h6>
+          <li><a href="/">Home</a></li>
+          <li><a href="#whatWeDo">What we do</a></li>
+          <li><a href="#ourWork">Our Work</a></li>
+          <li><a href="#whoWeAre">Who we are</a></li>
+        </ul>
+        <ul class="footer__column footer__column--2">
+          <h6 class="footer__title">Contact Us</h6>
+          <li><a href="tel:34-930-2495">034-930-2495</a></li>
+          <li>
+            <a href="mailto:albertha_bradtke@columbus.us"
+              >albertha_bradtke@columbus.us</a
+            >
+          </li>
+          <li>128 Jamaal Center Apt. 775</li>
+        </ul>
+        <ul class="footer__column footer__column--3">
+          <h6 class="footer__title">Follow Us</h6>
+          <div class="footer__column-wrapper">
+            <li><a href="http://facebook.com" target="_blank">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/">Linkedin</a></li>
+            <li><a href="https://dribbble.com/">Dribbble</a></li>
+            <li><a href="https://instagram.com/">Instagram</a></li>
+          </div>
+        </ul>
+        <ul class="footer__column footer__column--4">
+          <h6 class="footer__title">Why Belarus?</h6>
+          <li>
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of using Lorem Ipsum is that it has a more-or-less normal
+            distribution of letters, as opposed to using 'Content here, content
+            here', making it look like readable English.
+          </li>
+        </ul>
+      </div>
+      <div class="footer__line"></div>
+      <div class="footer__last-block">
+        <h4>© 2020 Arkoni, Inc. All Rights Reserved</h4>
+        <h5><a href="#">Tearms of Service</a></h5>
+        <h5><a href="#">Privacy Policy</a></h5>
+      </div>
+      <div class="footer__bg"></div>
+    </footer>
+    <script src="./js/jQuery/jquery-1.11.0.min.js"></script>
+    <script src="./js/jQuery/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick/slick.min.js"></script>
+    <script src="./js/index.es5.js"></script>
+  </body>
+</html>

@@ -1,0 +1,204 @@
+.contact {
+  max-width: 110rem;
+  margin: 0 auto;
+  margin-top: 13rem;
+
+  box-shadow: 0px 0px 3rem 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background: white;
+  opacity: 0.99;
+
+  @media (max-width: $bp-large) {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 15.5rem;
+    max-width: 88.4rem;
+  }
+
+  @media (max-width: $bp-medium) {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    margin-top: 13.2rem;
+    max-width: 73.6rem;
+  }
+
+  @media (max-width: $bp-small) {
+    margin-top: 9.5rem;
+    margin-top: 9.5rem;
+    width: 90% !important;
+  }
+
+  h2 {
+    color: $pseudo-black-2;
+    font-family: "Barlow";
+    font-size: $title-size;
+    font-weight: 500;
+    display: table;
+    margin: 0 auto;
+    margin-top: 5.5rem;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    color: $pseudo-black-2;
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+    max-width: 55rem;
+    opacity: 1;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 2rem;
+
+    @media (max-width: $bp-small) {
+      max-width: 88%;
+    }
+  }
+
+  &__form {
+    display: block;
+    width: 55.5rem;
+    margin: 0 auto;
+
+    @media (max-width: $bp-small) {
+      max-width: 100%;
+    }
+
+    input {
+      @media (max-width: $bp-medium) {
+        font-size: 1.3rem;
+      }
+
+      @media (max-width: $bp-small) {
+        display: block;
+        margin: 2rem auto 0 auto;
+        width: 100%;
+
+        &:first-child {
+          margin-top: 0;
+        }
+      }
+    }
+
+    textarea {
+      @media (max-width: $bp-small) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__name {
+    width: 26.5rem;
+    height: 5rem;
+    color: $pseudo-black-2;
+    padding: 1.3rem 1.4rem;
+    border: 1px solid #d8dbe4;
+    &::placeholder {
+      color: rgba($pseudo-black-2, 0.4);
+    }
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    margin-right: 2rem;
+  }
+
+  &__email {
+    width: 26.5rem;
+    height: 5rem;
+    color: $pseudo-black-2;
+    padding: 1.3rem 1.4rem;
+    border: 1px solid #d8dbe4;
+    &::placeholder {
+      color: rgba($pseudo-black-2, 0.4);
+    }
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+  }
+
+  &__company {
+    margin-top: 2rem;
+    width: 26.5rem;
+    height: 5rem;
+    color: $pseudo-black-2;
+    padding: 1.3rem 1.4rem;
+    border: 1px solid #d8dbe4;
+    &::placeholder {
+      color: rgba($pseudo-black-2, 0.4);
+    }
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    margin-right: 2rem;
+  }
+
+  &__budget {
+    margin-top: 2rem;
+    width: 26.5rem;
+    height: 5rem;
+    color: $pseudo-black-2;
+    padding: 1.3rem 1.4rem;
+    border: 1px solid #d8dbe4;
+    &::placeholder {
+      color: rgba($pseudo-black-2, 0.4);
+    }
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+  }
+
+  &__details {
+    font-family: "Barlow";
+    margin-top: 2rem;
+    width: 55rem;
+    height: 14rem;
+    color: $pseudo-black-2;
+    padding: 1.3rem 1.4rem;
+    border: 1px solid #d8dbe4;
+    &::placeholder {
+      color: rgba($pseudo-black-2, 0.4);
+    }
+    border-radius: 0.4rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    resize: none;
+    @media (max-width: $bp-medium) {
+      font-size: 1.3rem;
+    }
+
+    @media (max-width: $bp-small) {
+      width: 25.6rem;
+      height: 14rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__btn {
+    min-width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+    @media (max-width: $bp-large) {
+      margin-bottom: 5rem;
+      margin-left: 0.5rem;
+    }
+
+    @media (max-width: $bp-medium) {
+      padding-top: 1.6rem;
+      padding-bottom: 1.6rem;
+    }
+
+    @media (max-width: $bp-small) {
+      margin-top: 2rem;
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,186 @@
+.skillset {
+  max-width: 112.5rem;
+  margin-top: 12.4rem;
+  margin-left: 12%;
+
+  @media (max-width: $bp-large) {
+    margin-left: 7%;
+    margin-top: 10.5rem;
+  }
+
+  @media (max-width: $bp-medium) {
+    margin-top: 3.5rem;
+  }
+
+  @media (max-width: $bp-small) {
+    margin-top: 0rem;
+  }
+
+  h2 {
+    color: $pseudo-black-2;
+    font-family: "Barlow";
+    font-size: $title-size;
+    font-weight: 500;
+
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  &__skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16rem;
+    height: 16rem;
+    position: relative;
+    margin-right: 7.5rem;
+    &:nth-child(5n) {
+      margin-right: 0;
+    }
+    &:nth-child(n + 6) {
+      margin-top: 2rem;
+    }
+
+    // @media (max-width: $bp-large) {
+    //   margin-right: 2.1rem;
+
+    //   h3 {
+    //     line-height: 41px !important;
+    //   }
+
+    //   &:nth-child(n + 6) {
+    //     margin-top: 1rem;
+    //   }
+    // }
+
+    @media (max-width: $bp-large) {
+      width: 13.2rem;
+      height: 15rem;
+      margin-right: 1.87rem;
+
+      &:nth-child(n + 6) {
+        margin-top: 2rem;
+      }
+
+      &--node {
+        img {
+          width: 50%;
+        }
+      }
+
+      &--angular {
+        img {
+          width: 36%;
+        }
+      }
+
+      &--react {
+        img {
+          width: 41%;
+        }
+      }
+      &--native {
+        img {
+          width: 41%;
+        }
+      }
+
+      &--vue {
+        img {
+          width: 33%;
+        }
+      }
+
+      &--ruby {
+        img {
+          width: 64%;
+        }
+      }
+
+      &--php {
+        img {
+          width: 56%;
+        }
+      }
+
+      &--wordPress {
+        img {
+          width: 36%;
+        }
+      }
+
+      &--ios {
+        img {
+          width: 29%;
+        }
+      }
+
+      &--android {
+        img {
+          width: 29%;
+        }
+      }
+    }
+
+    @media (max-width: $bp-small) {
+      &:nth-child(5n) {
+        margin-right: 2rem;
+      }
+
+      &:nth-child(2n) {
+        margin-right: 0;
+      }
+
+      &:nth-child(n + 3) {
+        margin-top: 2rem;
+      }
+    }
+
+    h3 {
+      color: $pseudo-black-2;
+      line-height: 1.5;
+      font-size: 1.6rem;
+      font-family: "Barlow";
+      font-weight: 500;
+      position: absolute;
+      bottom: 1rem;
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+
+      @media (max-width: $bp-medium) {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+      }
+
+      @media (max-width: $bp-medium) {
+        left: 50%;
+        bottom: 0;
+        font-size: 1.3rem;
+      }
+
+      @media (max-width: $bp-small) {
+        font-size: 1.5rem;
+      }
+    }
+
+    &--node {
+      img {
+        margin-top: -12px;
+      }
+    }
+  }
+
+  &__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
